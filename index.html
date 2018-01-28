@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Barncat Digital: What do you have in mind?</title>
+    <link rel="stylesheet" href="/react-trivia/assets/css/styles.css" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300|Roboto:300,400" rel="stylesheet">
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106646682-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments)};
+    gtag('js', new Date());
+
+    gtag('config', 'UA-106646682-1');
+</script>
+</head>
+
+<body>
+<div id="app"></div>
+
+<!-- Loading data this way as a convenience so you can easily load index.html from the local file system
+     (using the file:// protocol) without runnning into XHR cross origin issues. See the commented out componentDidMount
+     in app.js for an alternative XHR implementation -->
+<script src="/react-trivia/data.js"></script>
+
+<script src="/react-trivia/build/app.bundle.js"></script>
+
+
+</body>
+
+</html>
